@@ -9,4 +9,5 @@ The dog Alfie
 The animal comparator
 
 3. Can you spot the Comparator constructor call? Where is the class definition for the Comparator?
+Yes it is after the command on line 16 ( new Comparator<Animal>() {code})
 Lines 16 through 21

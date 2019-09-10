@@ -1,2 +1,16 @@
 Username: Joel9241
 Repo: https://github.com/Joel9241/cisc275-fall2019-first-git
+
+Sequence of Commands to achieve Final State of all four files:
+(used vim to create 4 files a.txt, b.txt, c.txt, d.txt)
+a.txt is currently untracked so that file can be left as is
+In order to have b.txt as modified first it is added then committed:
+git add b.txt
+git commit -m "b.txt added to repo"
+Then change b.txt using vim b.txt and save the changes. Now it is modified.
+In order to have c.txt as staged (run this after d.txt is commited to the repo so it does not get commited with d.txt):
+git add c.txt
+To have d in the repo:
+git add d.txt
+git commit -m "added d.txt to repo"
+
